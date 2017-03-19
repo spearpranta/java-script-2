@@ -1,0 +1,223 @@
+
+.formvalidation{
+	background: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+.signup{
+	margin: 0 auto;
+	float: none;
+	padding: 3em 0;
+}
+.signup h3{
+	text-align: center;
+	text-transform: uppercase;;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 1em 0;
+    color: rgb(255, 255, 255);
+}
+.signup h4{
+	text-align: center;
+	font-size: 19px;
+	height: 19px;
+	font-weight: 700;
+	padding: 1em 0;
+	color: #f37780;
+}
+#Fname{
+	margin-right: 
+}
+#Lname{
+	margin-left: 
+}
+#Txtar{
+	width: 100%;
+    border-radius: 4px;
+    background-color: rgba(43, 41, 41, 0.59);
+    color: #fff;
+    padding: 12px 12px;
+}
+.bton{
+	text-align: center;
+}
+.btn-custom{
+	padding: 7px 40px;
+	font-weight: 500;
+	font-size: 16px;
+	background-color: rgba(27, 27, 27, 0.59);
+	color: #fff;
+	
+}
+.btn-custom:hover{
+	
+	font-weight: 500;
+	font-size: 16px;
+	background-color: rgba(162, 161, 161, 0.53);
+	color: #fff;
+	
+}
+.btn-custom:active{
+	
+	font-weight: 500;
+	font-size: 16px;
+	background-color: rgba(162, 161, 161, 0.53);
+	color: #fff;
+	
+}
+.form-control {
+    padding: 20px 12px;
+    background-color: rgba(43, 41, 41, 0.59);
+    color: #fff;
+    font-weight: bold;
+}
+
+.multiplication{
+	background: url(../images/1.png);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+.multy{
+	padding: 5em 0;
+	margin: 0 auto;
+	float: none;
+}
+#Num{
+	width: 100%;
+	padding: 12px 10px;
+	background-color: rgba(46, 45, 45, 0.81);
+	border:1px solid gray;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+}
+.multiplication .btn-custom{
+	padding: 12px 40px;
+	font-weight: 900;
+	font-size: 19px;
+	background-color: rgba(255, 250, 196, 0.78);
+    border: 1.5px solid #a9bd00;
+    color: #181818;
+
+	
+}
+.multiplication .btn-custom:hover{
+	
+	font-weight: 900;
+	font-size: 19px;
+	background-color: rgba(45, 45, 45, 0.78);
+	color: #fff;
+	
+}
+.resl{
+	height: 300px;
+	width: 100%;
+	background-color: rgba(46, 45, 45, 0.81);
+	border:1px solid gray;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	margin-top: 1em;
+
+}
+#mulRe{
+	font-weight: 900;
+	font-size: 19px;
+}
+/*Multiplication*/
+
+
+/*calculator*/
+.calculator{
+	background: url(../images/2022390.jpg);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+#disp{
+	width: 100%;
+	padding: 25px 20px;
+	margin-bottom: 15px;
+	background-color: rgba(46, 45, 45, 0.81);
+	color: #fff;
+	text-align: right;
+	font-weight: 500;
+	font-size: 35px;
+	border-radius: 6px;
+
+}
+.calculator button{
+	width: 25%;
+	padding: 22px 0;
+	float: left;
+	font-weight: 700;
+	font-size: 32px;
+	border-radius: 6px;
+}
+/*calculator*/
+
+
+/*palindrome*/
+.palindrome{
+	background: url(../images/1.png);
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+
+#Paldr{
+	width: 100%;
+	padding: 12px 10px;
+	background-color: rgba(46, 45, 45, 0.81);
+	border:1px solid gray;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 19px;
+}
+.palindrome .btn-custom{
+	padding: 12px 40px;
+	font-weight: 900;
+	font-size: 19px;
+
+    background-color: rgba(255, 255, 255, 0.78);
+    border: 1.5px solid #000;
+    color: #181818;
+
+	
+}
+.palindrome .btn-custom:hover{
+	
+	font-weight: 900;
+	font-size: 19px;
+	background-color: rgba(45, 45, 45, 0.78);
+	color: #fff;
+	
+}
+.PDresl{
+	height: 100px;
+	width: 100%;
+	background-color: rgba(46, 45, 45, 0.81);
+	border:1px solid gray;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	margin-top: 1em;
+
+}
+#PDmulRe{
+	font-weight: 900;
+	font-size: 26px;
+	padding-top: 15px;
+}
+
+/*palindrome*/

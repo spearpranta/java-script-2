@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>java script 2</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    
+  </head>
+  <body>
+    
+    
+  
+    <section class="formvalidation">
+      
+              <div class="container">
+            
+                
+              
+                  <div class="col-md-7 signup">
+
+                    <h3>signup here</h3>
+                   
+                    <form name="SignUp">
+                      <div class="row">
+                          <div class="form-group col-md-6">
+                          
+                              <input type="text" class="form-control" id="Fname" name="Fnm" placeholder="First Name">
+                          </div>
+                        
+                          <div class="form-group col-md-6">
+                           
+                                  <input type="text" class="form-control" id="Lname" name="Lnm" placeholder="Last Name">
+                         </div>
+                       </div>
+                      
+                      <div class="form-group">
+                         <input type="email" class="form-control" id="Email1" name="Eml" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="Password" name="Psw" placeholder="Enter Password">
+                      </div>
+                       <div class="form-group">
+                        <input type="password" class="form-control" id="re-Password" name="RPsw" placeholder="Re-enter Password">
+                      </div>
+
+                      <div class="form-group">
+                        <textarea id="Txtar" rows="8" name="TxT" placeholder="Your Vision"></textarea>
+                      </div>
+                      <div class="bton">
+                        <button type="button" class="btn btn-default btn-custom" onclick="ClickSignUp()">Sign Up</button>
+                      </div>
+                      
+                    </form>
+                    <h4 id="Error"></h4>
+                  </div>
+
+               </div>
+
+
+    </section>  
+
+      <section class="multiplication">
+        <div class="container">
+          
+          <div class="col-md-7 multy">
+             
+             <div class="row">
+                   <div class="col-md-7">
+                    <input type="text" id="Num" placeholder="Input Number">
+                  </div>
+
+                 <div class="col-md-5 bton">
+                            <button type="button" class="btn btn-default btn-custom pull-right" onclick="ClickMulty()">Click for Result</button>
+                  </div>
+             </div>
+
+              <div class="resl">
+                <h5 id="mulRe"></h5>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="calculator">
+        <div class="container">
+            
+            <div class="col-md-7 multy">
+               
+               <div class="row">
+                     <input type="text" name="" id="disp">
+                     <button type="button" onclick="ClickSeven()">7</button>
+                     <button type="button" onclick="ClickEight()">8</button>
+                     <button type="button" onclick="ClickNine()">9</button>
+                     <button type="button" onclick="ClickDivd()">/</button>
+
+                     <button type="button" onclick="ClickFour()">4</button>
+                     <button type="button" onclick="ClickFive()">5</button>
+                     <button type="button" onclick="ClickSix()">6</button>
+                     <button type="button" onclick="ClickMultp()">*</button>
+
+                     <button type="button" onclick="ClickOne()">1</button>
+                     <button type="button" onclick="ClickTwo()">2</button>
+                     <button type="button" onclick="ClickThree()">3</button>
+                     <button type="button" onclick="ClickMins()">-</button>
+
+                     <button type="button" onclick="ClickClear()">C</button>
+                     <button type="button" onclick="ClickZero()">0</button>
+                     <button type="button" onclick="ClickEqu()">=</button>
+                     <button type="button" onclick="ClickPlus()">+</button>
+                </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="palindrome">
+        <div class="container">
+          
+          <div class="col-md-7 multy">
+             
+             <div class="row">
+                   <div class="col-md-7">
+                    <input type="text" id="Paldr" placeholder="Input Text for palindrome test">
+                  </div>
+
+                 <div class="col-md-5 bton">
+                            <button type="button" class="btn btn-default btn-custom pull-right" onclick="ClickPaldr()">Click for Result</button>
+                  </div>
+             </div>
+
+              <div class="PDresl">
+                <h5 id="PDmulRe"></h5>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+
+</html>
